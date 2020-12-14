@@ -28,5 +28,10 @@ Solution:
 SELECT ROUND(MIN(LAT_N),4) FROM STATION
 WHERE LAT_N > 38.7780
 
+Question: https://www.hackerrank.com/challenges/weather-observation-station-18/problem
+
+Solution: 
+SELECT ROUND( ABS(MIN(LAT_N) - MAX(LAT_N)) + ABS(MIN(LONG_W) - MAX(LONG_W)),4) FROM STATION
+
 
 
