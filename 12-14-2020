@@ -33,5 +33,11 @@ Question: https://www.hackerrank.com/challenges/weather-observation-station-18/p
 Solution: 
 SELECT ROUND( ABS(MIN(LAT_N) - MAX(LAT_N)) + ABS(MIN(LONG_W) - MAX(LONG_W)),4) FROM STATION
 
+Question: https://www.hackerrank.com/challenges/weather-observation-station-19
+
+Solution: 
+
+Select round(sqrt(power((min(lat_n)-max(lat_n)),2) + power((min(long_w)-max(long_w)),2)),4) From station
+
 
 
